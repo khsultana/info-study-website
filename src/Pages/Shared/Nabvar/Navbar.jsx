@@ -44,87 +44,79 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <img src={logo} alt="" />{" "}
+          <img className="" src={logo} alt="" />{" "}
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className="text-lg font-Jakarta font-semibold">Home</a>
+              <a className="text-lg font-Poppins font-0">Home</a>
             </li>
             <li>
               <details>
-                <summary className="text-lg font-Jakarta font-semibold">
+                <summary className="text-lg font-Poppins font-0">
                   About Us
                 </summary>
                 <ul className="p-5">
                   <li>
-                    <a className="text-lg font-Jakarta">How Can We Help?</a>
+                    <a className="text-lg font-Poppins">How Can We Help?</a>
                   </li>
                   <li>
-                    <a className="text-lg font-Jakarta">CEO Message</a>
+                    <a className="text-lg font-Poppins">CEO Message</a>
                   </li>
                   <li>
-                    <a className="text-lg font-Jakarta">Mission & Vision</a>
+                    <a className="text-lg font-Poppins">Mission & Vision</a>
                   </li>
                   <li>
-                    <a className="text-lg font-Jakarta">Why Choose Us?</a>
+                    <a className="text-lg font-Poppins">Why Choose Us?</a>
                   </li>
                 </ul>
               </details>
             </li>
             <li>
               <details>
-                <summary className="text-lg font-Jakarta font-semibold">
+                <summary className="text-lg font-Poppins font-0">
                   Our Services
                 </summary>
                 <ul className="p-2">
                   <li>
-                    <a className="text-lg font-Jakarta">Submenu 1</a>
+                    <a className="text-lg font-Poppins">Submenu 1</a>
                   </li>
                   <li>
-                    <a className="text-lg font-Jakarta font-semibold">
-                      Submenu 2
-                    </a>
+                    <a className="text-lg font-Poppins font-0">Submenu 2</a>
                   </li>
                 </ul>
               </details>
             </li>
             <li>
               <details>
-                <summary className="text-lg font-Jakarta font-semibold">
+                <summary className="text-lg font-Poppins font-0">
                   Destination
                 </summary>
                 <ul className="p-2">
                   <li>
-                    <a className="text-lg font-Jakarta font-semibold">
-                      Submenu 1
-                    </a>
+                    <a className="text-lg font-Poppins font-0">Submenu 1</a>
                   </li>
                   <li>
-                    <a className="text-lg font-Jakarta">Submenu 2</a>
+                    <a className="text-lg font-Poppins">Submenu 2</a>
                   </li>
                 </ul>
               </details>
             </li>
             <li>
-              <a className="text-lg font-Jakarta font-semibold">Our Partner</a>
+              <a className="text-lg font-Poppins ">Our Partner</a>
             </li>
             <li>
-              <a className="text-lg font-Jakarta font-semibold">
-                Success Stories
-              </a>
+              <a className="text-lg font-Poppins font-0">Success Stories</a>
             </li>
             <li>
-              <a className="text-lg font-Jakarta font-semibold">
-                Find Your Program
-              </a>
+              <a className="text-lg font-Poppins font-0">Find Your Program</a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
           <a
             href="/"
-            className="text-lg font-Jakarta  bg-[#da563f] rounded-md p-3 text-white "
+            className="text-lg font-Poppins  bg-[#ee4036] rounded-md p-3 text-white "
           >
             Book Appointment
           </a>

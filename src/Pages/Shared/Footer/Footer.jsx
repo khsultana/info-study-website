@@ -16,10 +16,10 @@ const Footer = () => {
           </p>
 
           <p className="flex justify-center gap-5 text-lg mt-10">
-            <FaMeta />
-            <FaLinkedin />
-            <FaYoutube />
-            <FaXTwitter />
+            <FaMeta className="motion-safe:animate-ping" />
+            <FaLinkedin className="motion-safe:animate-ping" />
+            <FaYoutube className="motion-safe:animate-ping" />
+            <FaXTwitter className="motion-safe:animate-ping" />
           </p>
         </aside>
         <nav>
@@ -56,7 +56,7 @@ const Footer = () => {
                 placeholder="username@site.com"
                 className="input input-bordered join-item"
               />
-              <button className="btn btn-primary join-item">Subscribe</button>
+              <button className="btn bg-[#ffcc00] join-item">Subscribe</button>
             </div>
           </fieldset>
         </form>

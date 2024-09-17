@@ -7,7 +7,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        Jakarta: "'Plus Jakarta Sans', sans-serif"
+        Jakarta: "'Plus Jakarta Sans', sans-serif",
+        Montserrat:"'Montserrat', sans-serif",
+        Poppins:"'Poppins', sans-serif"
       },
       
       
